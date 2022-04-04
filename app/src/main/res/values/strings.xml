@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Task31C</string>
+    <string name="string_mainactivitytitle">SIT305 Quiz App</string>
+    <string name="start_quiz_button">Start Quiz!</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="question_title">Question Title</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="your_score_was">Your score was:</string>
+</resources>

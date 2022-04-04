@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:paddingBottom="50dp" />
+
+        <TextView
+            android:id="@+id/questionTitle"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:text="@string/question_title"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/questionBody"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp"
+            android:text="question body"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/answerOneButton"
+            android:layout_width="238dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#cacbcc"
+            android:text="Answer 1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/answerTwoButton"
+            android:layout_width="238dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#cacbcc"
+            android:text="Answer 2"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/answerThreeButton"
+            android:layout_width="238dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#cacbcc"
+            android:text="Answer 3"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="217dp"
+            android:layout_height="69dp"
+            android:insetLeft="0dp"
+            android:text="Submit Button" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
